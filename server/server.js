@@ -13,6 +13,6 @@ app.listen(port, () => {
   console.log(`Docked at port ${port}`);
 });
 
-app.use("/js", express.static(path.join(__dirname, "../server/server.js")));
+app.use("/js", express.static(path.join(__dirname, "../client/index.js")));
 // console.log("is this working")
 
